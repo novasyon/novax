@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Spanish novasyon.net/apps | apps@novasyon@net 7/28/2016 -->
+<resources>
+  <string name="all">Todo</string>
+  <string name="app_activity">Actividad</string>
+  <string name="app_ans_screen">Pantalla de respuesta</string>
+  <string name="app_change_lang">Cambiar el idioma de la aplicación</string>
+  <string name="app_choose_category">Elige una categoría</string>
+  <string name="app_choose_level">Elige un nivel</string>
+  <string name="app_enter_code">Introduce el código</string>
+  <string name="app_enter_security_code">Introduce el código de seguridad</string>
+  <string name="app_enter_text">Introduce el texto aquí</string>
+  <string name="app_exit">Salida</string>
+  <string name="app_exit_sure">¿Está seguro que desea salir de la aplicación?</string>
+  <string name="app_FAQ">Preguntas frecuentes</string>
+  <string name="app_fav">Favoritos</string>
+  <string name="app_female">Femenino</string>
+  <string name="app_finish">Terminar</string>
+  <string name="app_fname">Nombre</string>
+  <string name="app_game_over">¡Fin de juego!</string>
+  <string name="app_game_what">¿Qué es este juego?</string>
+  <string name="app_general">General</string>
+  <string name="app_go_to_menu">Va al menú</string>
+  <string name="app_help">Ayuda</string>
+  <string name="app_help_cont">Los botones Continuar, Ayuda, Salida y Nuevo</string>
+  <string name="app_help_enter_name">Entrar nombres y seleccionar las opciones</string>
+  <string name="app_help_how_to_play">Cómo jugar</string>
+  <string name="app_help_play_game">Jugar</string>
+  <string name="app_help_play_quiz">Jugar el cuestionario:</string>
+  <string name="app_help_player_level">Nombre del jugador, nivel</string>
+  <string name="app_hint">Indicio</string>
+  <string name="app_hint_keywords">Indicio: Escriba algunas palabras clave separada por comas como: amor, gozo, paz</string>
+  <string name="app_history">Historia</string>
+  <string name="app_intro">Introducción</string>
+  <string name="app_lang">Idioma</string>
+  <string name="app_langs">Idiomas</string>
+  <string name="app_level">Nivel</string>
+  <string name="app_level_adult">Avanzado</string>
+  <string name="app_level_advanced">Estudio avanzado o adultos jóvenes</string>
+  <string name="app_level_1">Muy fácil</string> <!-- level 1-->
+  <string name="app_level_2">Fácil</string> <!-- level 2-->  
+  <string name="app_level_3">Medio</string> <!-- level 3 (default)-->
+  <string name="app_level_4">Duro</string> <!-- level 4-->
+  <string name="app_level_5">¡Sorpresa!</string> <!-- level 5-->
+  <string name="app_like">Me gusta</string>
+  <string name="app_like_not">No me gusta</string>
+  <string name="app_lname">Apellido</string>
+  <string name="app_male">Masculino</string>
+  <string name="app_map">Mapa</string>
+  <string name="app_novasyon_what">¿Qué es Novasyon?</string>
+  <string name="app_number_rounds">Cantidad de rondas</string>
+  <string name="app_options">Otras opciones</string>
+  <string name="app_options_other">Otras opciones</string>
+  <string name="app_pattern_forget">¿Has olvidado el patrón?</string>
+  <string name="app_please">Por favor</string>
+  <string name="app_post_comment">Enviar un comentario</string>
+  <string name="app_post_own_poem">Debe ser el autor del poema que presentar aquí.</string>
+  <string name="app_profile">Perfil</string>
+  <string name="app_question_screen">Pantalla de pregunta</string>
+  <string name="app_quiz">Juego de cuestionario</string>
+  <string name="app_rate_app">Calificar nuestra aplicación</string>
+  <string name="app_round_questions">Preguntas por ronda</string>
+  <string name="app_security_code">Código de seguridad</string>
+  <string name="app_selec_lang">Seleccionar idioma</string>
+  <string name="app_select_file">Seleccionar un fichero</string>
+  <string name="app_select_level">Seleccionar el nivel</string>
+  <string name="app_setting_mode">Modo</string>
+  <string name="app_setting_pers">Configuración del juego</string>
+  <string name="app_settings">Configuración</string>
+  <string name="app_share">Compartir</string>
+  <string name="app_share_via">Compartir a través de</string>
+  <string name="app_skip">Saltar</string>
+  <string name="app_spell_check_first">Ortografía su texto antes de enviarlo.</string>
+  <string name="app_start_game">Comenzar el juego</string>
+  <string name="app_start_game_new">Iniciar nuevo juego</string>
+  <string name="app_text_nb_we_review">NOTA: Vamos a revisar el texto antes de hacerlo público.</string>
+  <string name="app_time_to_answer">Tiempo para responder</string>
+  <string name="app_time_to_read">Tiempo para leer la pregunta</string>
+  <string name="app_timer">Cronómetro</string>
+  <string name="app_topic">Tema</string>
+  <string name="app_try_again">Inténtalo de nuevo</string>
+  <string name="app_user">Usuario</string>
+  <string name="app_username">Nombre de usuario</string>
+  <string name="app_views">Vistas</string>
+  <string name="app_welcome">¡ Bienvenido!</string>
+  <string name="app_your_email">Su correo electrónico</string>
+  <string name="app_your_password">Su contraseña</string>
+  
+  <string name="q_welcome">Bienvenido en Novasyon Quiz</string>
+  <string name="q_enjoy_playing">Disfrute en el juego, mientras que enriquecer sus conocimientos ;-)</string>
+  <string name="q_create_account">Crear una cuenta</string>
+  <string name="q_guest">visitante</string>
+  <string name="q_guest_play">Continua como un visitante</string>
+  <string name="q_register">Inscripción</string>
+  <string name="q_go_back">Regresa</string>
+  <string name="q_connecting">Conexión...</string>
+  <string name="q_loading">Cargando...</string>
+  <string name="q_loading_data">Cargando datos...</string>
+  <string name="q_error_user">Por favor, ingrese su nombre de usuario</string>
+  <string name="q_error_password">Por favor, introduzca su contraseña</string>
+  <string name="q_try_again">Inténtalo de nuevo</string>
+  
+  <string name="q_player_team">Jugador o equipo</string>
+  <string name="q_level1">Muy fácil</string>
+  <string name="q_level2">Fácil</string>
+  <string name="q_level3">Medio</string>
+  <string name="q_level4">Duro</string>
+  <string name="q_level5">¡Sorpresa!</string>
+  <string name="q_game_settings1">2 intentos; no hay penalización por respuesta incorrecta. Consejos toman un turno.</string>
+  <string name="q_game_settings2">2 intentos; pérdida de punto por respuesta incorrecta. Consejos reducen el valor de 50%.</string>
+  <string name="q_game_settings3">1 intento; pérdida de puntos por respuesta incorrecta. Consejos cuestan 50% de los puntos de interrogación.</string>
+  <string name="q_display_explanation">Siempre muestre las explicaciones</string>
+  <string name="q_second">segundo</string>
+  <string name="q_seconds">segundos</string>
+  <string name="q_time">tiempo</string>
+  
+  <string name="articles">Artículos</string>
+  <string name="bacc_exams">Exámenes de BACC</string>
+  <string name="blog">Blog</string>
+  <string name="by_theme">Por tema</string>
+  <string name="cancel">Cancelar</string>
+  <string name="captcha">Captcha</string>
+  <string name="categories">Categorías</string>
+  <string name="category">Categoría</string>
+  <string name="chemistry">Química</string>
+  
+  <string name="comment">Comentario</string>
+  <string name="comment_click_here_to">Haga clic aquí para comentar</string>
+  <string name="comment_to">Haga clic para comentar</string>
+  <string name="comment_view_more">Más información/ver comentarios</string>
+  <string name="commented_most">Los más comentados</string>
+  <string name="comments">Comentarios</string>
+  <string name="comments_see_below">Ver comentarios más abajo</string>
+  <string name="confirm">Confirmar</string>
+  <string name="congrats">¡Felicidades!</string>
+  <string name="continue">Continuar</string>
+  <string name="delete">Borrar</string>
+  
+  <string name="dictionaries">Diccionarios</string>
+  <string name="dictionary">Diccionario</string>
+  <string name="dictionary_def">Definición</string>
+  <string name="dictionary_ht">Diccionario criollo haitiano</string>
+  <string name="dictionary_meaning">Significado</string>
+  <string name="dictionary_translate">Traducir</string>
+  <string name="dictionary_translate_text">Traducción de texto (beta)</string>
+  <string name="dictionary_try">Prueba nuestro Diccionario</string>
+  
+  <string name="download">Descargar</string>
+  <string name="edit">Editar</string>
+  <string name="exam_sample">Muestras de examen</string>
+  <string name="exams">Exámenes</string>
+  
+  <string name="form_button_click">Haga clic en el botón</string>
+  <string name="form_create_accnount">Crear una cuenta</string>
+  <string name="form_enter_word">Escriba la palabra</string>
+  <string name="form_error_wrong_ID">Error: Falta o incorrecta identificación</string>
+  <string name="form_go">¡Vaya!</string>
+  <string name="form_in_site">en el sitio</string>
+  <string name="form_in_tag">En esta etiqueta</string>
+  <string name="form_in_theme">En este tema</string>
+  <string name="form_in_this">en este</string>
+  <string name="form_member_registered">miembro registrado</string>
+  <string name="form_members_registered">miembros registrados</string>
+  <string name="form_no_account">¿No registrado ya?</string>
+  <string name="form_password">Contraseña</string>
+  <string name="form_password_forget">¿Olvidó su contraseña?</string>
+  <string name="form_reset">Reiniciar</string>
+  <string name="form_submit">Enviar</string>
+  
+  <string name="forum">Foro</string>
+  <string name="forum_en">Foro inglés</string>
+  <string name="forum_es">Foro español</string>
+  <string name="forum_fr">Foro francés</string>
+  <string name="forum_ht">Foro criollo</string>
+  
+  <string name="genius">genio</string>
+  <string name="geniuses">genios</string>
+  
+  <string name="genre_classical">Clásico</string>
+  <string name="genre_compas">Compas</string>
+  <string name="genre_latin">Latina</string>
+  <string name="genre_pop">Pop</string>
+  <string name="genre_r_and_b">R and B</string>
+  <string name="genre_zouk">Zouk</string>
+  <string name="group">Grupo</string>
+  <string name="groups">Grupos</string>
+  <string name="ID">Identificación</string>
+  <string name="in">en</string>
+  
+  <string name="joke">Broma</string>
+  <string name="joke_a">una broma</string>
+  <string name="joke_add">Añadir una broma</string>
+  <string name="joke_for_today">Bromas de hoy</string>
+  <string name="joke_lates">Las ultimas bromas</string>
+  <string name="joke_list">Lista de bromas que empiezan con la letra</string>
+  <string name="joke_more">Más bromas</string>
+  <string name="joke_tag">Etiqueta de broma</string>
+  <string name="joke_tags">Etiquetas de broma</string>
+  <string name="joke_the">la broma</string>
+  <string name="joke_upload">Subir una broma</string>
+  <string name="jokes">Bromas</string>
+  
+  <string name="keywords">Palabras claves</string>
+  
+  <string name="lang">Idioma</string>
+  <string name="lang_cr">Criollo</string>
+  <string name="lang_en">Inglés</string>
+  <string name="lang_en_ht">Inglés-criollo haitiano</string>
+  <string name="lang_es">Español</string>
+  <string name="lang_es_ht">Español-criollo haitiano</string>
+  <string name="lang_fr">Francés</string>
+  <string name="lang_fr_ht">Francés-criollo haitiano</string>
+  <string name="lang_ht">Criollo haitiano</string>
+  <string name="lang_ht_en">Criollo haitiano-inglés</string>
+  <string name="lang_ht_es">Criollo-Español</string>
+  <string name="lang_ht_fr">Criollo haitiano-francés</string>
+  <string name="lang_learn_en">Aprender inglés</string>
+  <string name="lang_learn_es">Aprender español</string>
+  <string name="lang_learn_fr">Aprender francés</string>
+  <string name="lang_learn_ht">Aprender Criollo haitiano</string>
+  <string name="lang_select">Por favor seleccione un idioma</string>
+  <string name="langs">Idiomas</string>
+  
+  <string name="last_visits">Las ultimas visitas</string>
+  <string name="latest">Más reciente</string>
+  <string name="latest_items">Últimos artículos</string><!--ITEMS can be proverbs, quotes, jokes -->
+  <string name="login">Inicia sesión</string>
+  <string name="logout">Cerrar la sesión</string>
+  <string name="lyrics">Letras de canciones</string>
+  <string name="lyrics_add">Añadir una letra de canción</string>
+  <string name="lyrics_artist_random">Artistas al azar</string>
+  <string name="lyrics_find">Encontrar una letra de canción</string>
+  <string name="lyrics_latest">Las últimas letras de canciones</string>
+  <string name="lyrics_more">Más letras de canciones</string>
+  <string name="lyrics_request">Solicitar una letra de canción</string>
+  <string name="lyrics_upload">Añadir una letra de canción</string>
+  <string name="lyrics_videos">Videos de canción</string>
+  
+  <string name="menu_about">Sobre nosotros</string>
+  <string name="menu_bacc_questons">Muestra de exámenes de bachillerato</string>
+  <string name="menu_contact">Contacto</string>
+  <string name="menu_contact_us">Contáctenos</string>
+  <string name="menu_conversions">Conversiones</string>
+  <string name="menu_dictionary">Diccionario</string>
+  <string name="menu_entertainment">Entretenimiento</string>
+  <string name="menu_figures_speech">Figuras retóricas</string>
+  <string name="menu_glossary">Glosario</string>
+  <string name="menu_glossary_important">Glosarios prácticas importantes</string>
+  <string name="menu_hep">Ayuda</string>
+  <string name="menu_home">Inicio</string>
+  <string name="menu_how_to">¿Cómo hacer...?</string>
+  <string name="menu_main_pages">Páginas principales</string>
+  <string name="menu_navigation">Navegación</string>
+  <string name="menu_poem_write_how">Cómo escribir un poema</string>
+  <string name="menu_quiz">Quiz</string>
+  <string name="menu_share">Compartir</string>
+  <string name="menu_sitemap">Mapa del sitio</string>
+  
+  <string name="miscellanous">Diverso</string>
+  <string name="most_viewed">Los más vistos</string>
+  <string name="music">Música</string>
+  <string name="name">Nombre</string>
+  <string name="new_messaged">Nuevos mensajes</string>
+  <string name="next">Siguiente</string>
+  <string name="note">Nota</string>
+  
+  <string name="novasyon_for_you">¿Qué tiene el sitio Novasyon para usted?</string>
+  <string name="novasyon_motto">¡Información y educación con diversión!</string>
+  <string name="novasyon_welcome">¡Bienvenido sobre Novasyon!</string>
+  
+  <string name="other">Otro</string>
+  
+  <string name="poem">Poema</string>
+  <string name="poem_a">un poema</string>
+  <string name="poem_add">Añadir un poema</string>
+  <string name="poem_glossary">Glosario poético</string>
+  <string name="poem_latest">Los últimos poemas</string>
+  <string name="poem_list">Lista de poemas españoles que empiezan con la letra</string><!--LANG can be English, Fench, Haitian Creole or Spanih -->
+  <string name="poem_mote">Más poemas</string>
+  <string name="poem_poetic">Poético</string>
+  <string name="poem_read_upload">Leer y subir poemas</string>
+  <string name="poem_the">el poema</string>
+  <string name="poem_types">Tipos de poema</string>
+  <string name="poem_upload">Subir un poema</string>
+  <string name="poems">Poemas</string>
+  <string name="poems_in_theme">Poemas en el mismo tema</string>
+  
+  <string name="previous">Anterior</string>
+  
+  <string name="proverb">Proverbio</string>
+  <string name="proverb_add">Añadir un proverbio</string>
+  <string name="proverb_en">Proverbios inglés</string>
+  <string name="proverb_es">Proverbios franceses</string>
+  <string name="proverb_es">Proverbios españoles</string>
+  <string name="proverb_for_today">Proverbio de hoy</string>
+  <string name="proverb_fr">Proverbios franceses</string>
+  <string name="proverb_ht">Proverbios de criollo haitiano</string>
+  <string name="proverb_list">Lista de Proverbios</string>
+  <string name="proverb_list_lang">Lista de Proverbios españoles</string>
+  <string name="proverb_more">Más Proverbios</string>
+  <string name="proverb_next">Proverbio siguiente</string>
+  <string name="proverb_previous">Proverbio anterior</string>
+  <string name="proverb_random">Proverbio al azar</string>
+  <string name="proverb_share">Compartir el proverbio</string>
+  <string name="proverb_suggest">Sugerir un proverbio</string>
+  <string name="proverb_view_by_theme">Ver proverbios por temas</string>
+  <string name="proverbs">Proverbios</string>
+  <string name="proverbs_in_theme">Proverbios en el mismo tema</string>
+  <string name="proverbs_random">Proverbios al azar</string>
+  <string name="proverbs_share">Compartir proverbios</string>
+  <string name="proverbs_top">Los proverbios más vistos</string>
+  
+  <string name="pseudo">Pseudo</string>
+  <string name="quiz_take">Tome un cuestionario</string>
+  
+  <string name="quote_add">Añadir una cita</string>
+  <string name="quote_list">Lista de citas españoles</string>
+  <string name="quote_list_letter">Lista de citas españoles que empiezan con la letra</string>
+  <string name="quote_random">Cita al azar</string>
+  <string name="quote_share">Compartir una cita</string>
+  <string name="quote_suggest">Sugerir una cita</string>
+  <string name="quote_tags">Etiqueta de cita</string>
+  <string name="quotes_friendship">Citas de amistad</string>
+  <string name="quotes_love">Citas de amor</string>
+  <string name="quotes_more">Mas citas</string>
+  <string name="quotes_random">Citas al azar</string>
+  <string name="quotes_share">Compartir citas</string>
+  <string name="quotes_top">Las citas mas vistas</string>
+  
+  <string name="random">Al azar</string>
+  <string name="reply">Respuesta</string>
+  <string name="request">Solicitud</string>
+  
+  <string name="ridddle_share">Compartir enigmas</string>
+  <string name="riddle">Enigma</string>
+  <string name="riddle_add">Añadir una enigma</string>
+  <string name="riddle_random">Enigma al azar</string>
+  <string name="riddle_suggest">Proponer una enigma</string>
+  <string name="riddle_tag">Etiqueta de enigma</string>
+  <string name="riddle_tags">Etiquetas de enigmas</string>
+  <string name="riddle_top">Las enigmas mas vistas</string>
+  <string name="riddles">Enigmas</string>
+  <string name="round">Ronda</string>
+  <string name="rounds">Rondas</string>
+  <string name="sample">Muestra</string>
+  <string name="score">Puntos</string>
+  <string name="search">Buscar</string>
+  <string name="search_result_tag">Resultados de búsqueda - etiquetas</string>
+  <string name="search_results">Resultados de búsqueda - palabras claves:</string>
+  <string name="select">Seleccione...</string>
+  <string name="send_to_friend">Enviar a un amigo</string>
+  
+  <string name="share_love_items_with_friedns">Compartir algunas citas de amor, proverbios, algunas bromas con tus amigos.</string>
+  <string name="share_with_friends">¡Comparte con tus amigos!</string>
+  <string name="share_with_world">Compartir con el mundo</string>
+  
+  <string name="table">Tabla</string>
+  <string name="tab">Ficha</string>
+  <string name="tag">Etiqueta</string>
+  <string name="tags">Etiquetas</string>
+  
+  <string name="text_add_item">Introduce un texto a agregar</string><!--ITEMS can be proverbs, quotes, jokes -->
+  <string name="text_added_success">Se ha agregado correctamente</string>
+  <string name="text_chalenge_yourself">Desafiarse a sí mismo</string>
+  <string name="text_click_letter">Haga clic en una letra para ver todo texto que comienzan con una letra específica</string>
+  <string name="text_contest">Concurso</string>
+  <string name="text_contest_rules">Reglas del concurso</string>
+  <string name="text_education_related">Sobre la educación</string>
+  <string name="text_feedback">Dinos lo que piensas</string>
+  <string name="text_fun_jokes_poems">Divertidos bromas, poemas, citas, proverbios, letras de canciones y más</string>
+  <string name="text_interesting_links">Algunos enlaces interesantes en nuestro sitio</string>
+  <string name="text_no_caps">NO PRESENTAR POEMAS SOLAMENTE EN MAYÚSCULAS.</string>
+  <string name="text_novasyon_cool">Cosas interesantes en Novasyon</string>
+  <string name="text_novasyon_in_short">Nova en corto</string>
+  <string name="text_proverb_comments">Puede publicar la variación, la definición, críticos, ejemplos o utilización de proverbios, traducción en inglés, francés, español o criollo en sus comentarios.</string>
+  <string name="text_share_with_community">Compartir con la comunidad</string>
+  <string name="text_site_activity">Actividades del sitio</string>
+  <string name="text_sitemap_novasyon">Sitemap de Novasyon</string>
+  <string name="text_starting_with_letter">Texto que comienza con</string>
+  <string name="text_support">Apoyo Novasyon hacer una donación</string>
+  <string name="text_theme_to_view">Haga clic en un tema para ver los artículos en este tema.</string><!--ITEMS can be proverbs, quotes, jokes -->
+  <string name="text_word_for_today">Palabra española del día</string>
+  
+  <string name="thanks">Gracias</string>
+  <string name="thankyou">Gracias</string>
+  
+  <string name="theme">Tema</string>
+  <string name="theme_Animal">Animal</string>
+  <string name="theme_Appearance">Apariencia (falsa)</string>
+  <string name="theme_Chance">Suerte</string>
+  <string name="theme_Change">Cambio</string>
+  <string name="theme_Constraints">Restricciones</string>
+  <string name="theme_Disappointment">Decepción</string>
+  <string name="theme_Disclaimer">Advertencia</string>
+  <string name="theme_Embarrassment">Vergüenza</string>
+  <string name="theme_Family">Familia</string>
+  <string name="theme_Famine">Hambre</string>
+  <string name="theme_God">Dios</string>
+  <string name="theme_Hazard">Peligros y riesgos</string>
+  <string name="theme_Help">Ayuda</string>
+  <string name="theme_Independence">Independencia</string>
+  <string name="theme_Justice">Justicia</string>
+  <string name="theme_Love">Amor</string>
+  <string name="theme_Misery">Miseria</string>
+  <string name="theme_Misfortune">Desgracia</string>
+  <string name="theme_Money">Dinero</string>
+  <string name="theme_Mystery">Misterio</string>
+  <string name="theme_Necessicity">Necesidad</string>
+  <string name="theme_Opportunism">Oportunismo</string>
+  <string name="theme_Providence">Providencia</string>
+  <string name="theme_Quality">Calidad / vicios</string>
+  <string name="theme_Realism">Realismo</string>
+  <string name="theme_Resignation">Resignación</string>
+  <string name="theme_Sciences">Ciencias</string>
+  <string name="theme_Security">Seguridad</string>
+  <string name="theme_Social">Divisiones sociales</string>
+  <string name="theme_Truth">Verdad</string>
+  <string name="theme_Vanities">Vanidades</string>
+  <string name="theme_Waste">Residuos</string>
+  <string name="theme_Wealth">Riqueza</string>
+  <string name="themes">Temas</string>
+  
+  <string name="this">este</string>
+  <string name="time">vece</string>
+  <string name="times">veces</string>
+  <string name="tools">Herramientas</string>
+  <string name="tools_find_rhymes">Encontrar palabras que riman</string>
+  <string name="tools_number_to_text">Número a texto</string>
+  <string name="update">Actualización</string>
+  <string name="update_success">Actualizado correctamente</string>
+  
+  <string name="user_connected_as">Estás conectado como</string>
+  <string name="user_here">Usted está aquí:</string>
+  <string name="user_not_connected">No está conectado</string>
+  <string name="user_profile_modify">Modificar mi perfil</string>
+  <string name="user_status_hide">Ocultar mi estado</string>
+  <string name="user_status_ofline">Fuera de línea</string>
+  <string name="user_status_online">En línea</string>
+  <string name="verb_conjugate">Conjugado</string>
+  
+  <string name="verb_en">Verbos en inglés</string>
+  <string name="verb_en_irr">Verbos irregulares inglés</string>
+  <string name="verb_es">Verbos españoles</string>
+  <string name="verb_es_irr">Verbos españoles irregulares</string>
+  <string name="verb_fr">Verbos franceses</string>
+  <string name="verb_fr_irr">Verbos irregulares del francés</string>
+  <string name="verb_gr1">1º grupo</string>
+  <string name="verb_gr1fr">Verbos franceses del 1º grupo</string>
+  <string name="verb_gr2">2º grupo</string>
+  <string name="verb_gr2fr">Verbos franceses del 2º grupo</string>
+  <string name="verb_gr3">3º grupo</string>
+  <string name="verb_gr3fr">Verbos franceses del 3º grupo</string>
+  <string name="verb_ht">Verbos de criollo haitiano</string>
+  <string name="verb_ht_irr">Verbos irregulares del criollo haitiano</string>
+  <string name="verb_master">Master la conjugación del verbo</string>
+  <string name="verbs">Verbos</string>
+  
+  <string name="view_by">Ver por</string>
+  <string name="view_by_category">Ver por categoría</string>
+  <string name="view_by_letter">Ver por letra</string>
+  <string name="view_more">Ver más</string>
+  <string name="view_tags">Ver las etiquetas</string>
+  <string name="views">Vistas</string>
+  
+  <string name="security">Seguridad</string>
+<help_text>
+HELP FOR NOVASYON QUIZ
+1 - WHAT IS NOVA QUIZ?
+2 - HOW DO WE CALCULATE THE SCORE?
+3 - PLAYING BIBLE QUIZ
+  i - ENTERING NAMES AND SELECTING OPTIONS
+  ii - PLAYER'S NAME, LEVEL
+  iii - GAME SETTINGS
+  iv - TIME TO READ AND ANSWER QUESTION
+  v - NUMBER OF ROUNDS
+  vi - QUESTIONS PER CATEGORY
+  vii - NUMBER OF CATEGORIES
+  viii - OTHER OPTIONS
+4 - CONTINUE, HELP, EXIT AND NEW BUTTONS
+5 - FEEDBACK, SHARING, RATE THE GAME</help_text>
+
+<help_text1>Help for Novasyon Quiz</help_text1>
+
+<help_text2>1 - WHAT IS NOVASYON QUIZ?
+Novasyon Quiz is a game based upon the poplar jeopardy game. We want the settings to be easy, so you can fully enjoy it.
+We will have a lot of quizzes. But we started with Bible quizzes. Later on, we will have other types of quizzes: history, sciences, languages.</help_text2>
+
+<help_text3>2 - HOW DO WE CALCULATE THE SCORE?
+The scoring is based on the setting. Setting your preferred settings according to difficulty.</help_text3>
+
+<help_text4>3 - PLAYING BIBLE QUIZ 
+i - ENTERING NAMES AND SELECTING OPTIONS
+	Enter the player’s name and level on this screen. There are 5 suggested levels:
+a) Very easy – As the name suggest. 
+b) Easy
+c) Medium (The default level)
+d) Hard
+e) Surprise! Anything goes here. Select questions from all of the above categories.
+
+             This screen also has the following fields:
+ii - PLAYER'S NAME, LEVEL
+Enter the name of each player and choose a level. The default level is Medium
+
+iii - GAME SETTINGS
+These modes allow you to find the most interesting and exciting method of playing the quiz
+
+I) 2 tries; no penalty for wrong answer. Hints take one turn.
+2 opportunities to answer the question with no penalty for wrong answers. However, a hint uses 1 of your tries.
+In this mode, the player can try 2 times to answer a question. If the first try is wrong, the player will be able to make a second try. If the second try is still wrong, the player will not lose any points. 
+NB: The player will be able to see the hint only before the 1st try. If the player uses the hint (if hint is available for this answer) the player will not be able to make a second, try.
+
+II) 2 tries; loss of point for wrong answer. Hints reduce value by 50%.
+2 opportunities to answer the question. However, there is a penalty for a wrong answer and a hint will reduce the value of the question by 50%.
+In this mode, the player can try 2 times to answer a question. If the first try is wrong, the player will be able to make a second try. If the second try is still wrong, the player will lose the points of the question.
+ NB: The player will be able to see the hint only before the 1st try. If the player uses the hint (if hint is available for this answer) the player will not be able to make a second, try. If the player choses the right answer after seeing the hint, (s)he will only be able to get half of the question’s points.
+ 
+III) 1 try; loss of points for wrong answer. Hints cost 50% of question points.
+1 opportunity to answer the question. There is a penalty for a wrong answer, and a hint will cost you points whether or not the question is answered correctly.
+In this mode, the user will automatically lose 50% of question points.
+
+iv - TIME TO READ AND ANSWER QUESTION 
+This determines the time to read and answer the question before the countdown finishes.
+
+v - NUMBER OF ROUNDS 
+This determines the number rounds to be played in the game.
+
+vi - QUESTIONS PER CATEGORY
+You can set the number of questions per category, ranging from three to five. There are always the same number of
+questions in each category.
+
+vii - NUMBER OF CATEGORIES 
+Set the Number of categories you want to play with.
+
+viii - OTHER OPTIONS
+Always Display Explanations will automatically display the explanations after each question regardless of whether the question is answered correctly or not.
+Random Questions will be preselected for you to play.
+You can choose to turn the sound on or off.</help_text4>
+
+<help_text5>4 - CONTINUE, HELP, EXIT AND NEW BUTTONS
+Use these buttons to navigate through the game. 
+
+5 - FEEDBACK, SHARING, RATE THE GAME
+Suggestions are welcome. Any feedback, comment, bug, correction, sample questions, or a new quiz you would like to add, please send it to apps@novasyon.net.
+If you would like to translate the game in your own language, please let us know.
+
+Click this   link to share the app with your friend. Or you can share it too in the Google Play Store
+
+Please give us positive score in the play store. If you have a problem with the app email us with all the problem details and we will address it. Giving poor rating will not correct the issue.
+Thanks again for using Novasyon Quiz.</help_text5>
+</resources>

@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Haitian Creole novasyon.net/apps | apps@novasyon@net 7/28/2016 -->
+<resources>
+  <string name="all">Tout</string>
+  <string name="app_activity">Aktivite</string>
+  <string name="app_ans_screen">Ekran repons</string>
+  <string name="app_change_lang">Chanje lang aplikasyon an</string>
+  <string name="app_choose_category">Chwazi yon kategori</string>
+  <string name="app_choose_level">Chwazi yon nivo</string>
+  <string name="app_enter_code">Rantre kòd la</string>
+  <string name="app_enter_security_code">Souple rantre kòd sekirite a</string>
+  <string name="app_enter_text">Rantre tèks la la a</string>
+  <string name="app_exit">Fèmen</string>
+  <string name="app_exit_sure">Eske ou sèten ou vle fèmen apliasyon an?</string>
+  <string name="app_FAQ">Kesyon moun poze souvan</string>
+  <string name="app_fav">Favori</string>
+  <string name="app_female">Fi</string>
+  <string name="app_finish">Fini</string>
+  <string name="app_fname">Non</string>
+  <string name="app_game_over">Jwet la fini!</string>
+  <string name="app_game_what">Kisa jwèt sa ye menm?</string>
+  <string name="app_general">Jeneral</string>
+  <string name="app_go_to_menu">Ale nan meni an</string>
+  <string name="app_help">Èd</string>
+  <string name="app_help_cont">Kontinye, Èd, Fèmen ak lòt bouton</string>
+  <string name="app_help_enter_name">Antre non ak Chwazi Opsyon</string>
+  <string name="app_help_how_to_play">Fason pou w jwe</string>
+  <string name="app_help_play_game">Jwe jwè la</string>
+  <string name="app_help_play_quiz">Jwe jwèt Kwiz la:</string>
+  <string name="app_help_player_level">Non jwè yo, nivo</string>
+  <string name="app_hint">Ti konsèy</string>
+  <string name="app_hint_keywords">Ti konsèy: Rantre kèk mokle ki separe avèk vigil tankou: renmen, lajwa, lapè. lekòl timoun</string>
+  <string name="app_history">Istorik</string>
+  <string name="app_intro">Entwodiksyon</string>
+  <string name="app_lang">Lang</string>
+  <string name="app_langs">Lang</string>
+  <string name="app_level">Nivo</string>
+  <string name="app_level_adult">Adilt</string>
+  <string name="app_level_advanced">Avanse</string>
+  <string name="app_level_child">Timoun</string>
+  <string name="app_level_easy">Fasil</string>
+  <string name="app_level_hard">Difisil</string>
+  <string name="app_level_medium">Mwayen</string>
+  <string name="app_level_young_child">TImoun</string>
+  <string name="app_like">Apresye</string>
+  <string name="app_like_not">Pa apresye</string>
+  <string name="app_lname">Siyati</string>
+  <string name="app_male">Gason</string>
+  <string name="app_map">Kat</string>
+  <string name="app_novasyon_what">Ki sa Novasyon ye?</string>
+  <string name="app_number_rounds">Kantite tou jwèt la genyen</string>
+  <string name="app_options">Lòt opsyon</string>
+  <string name="app_options_other">Lòt opsyon</string>
+  <string name="app_pattern_forget">Ou bliye chema a?</string>
+  <string name="app_please">Souple</string>
+  <string name="app_post_comment">Poste yon kòmantè</string>
+  <string name="app_post_own_poem">Ou dwe otè a tèks ou ap voye a.</string>
+  <string name="app_profile">Pwofil</string>
+  <string name="app_question_screen">Ekran kesyon</string>
+  <string name="app_quiz">Jwèt kwiz</string>
+  <string name="app_rate_app">Vote pou aplikasyon nou an</string>
+  <string name="app_round_questions">Kantite kesyon nan chak tou</string>
+  <string name="app_security_code">Kòd sekirite</string>
+  <string name="app_selec_lang">Chwazi yon lang</string>
+  <string name="app_select_file">Chwazi yon fichye</string>
+  <string name="app_select_level">Chwazi yon nivo</string>
+  <string name="app_setting_mode">Mòd</string>
+  <string name="app_setting_pers">Paramèt</string>
+  <string name="app_settings">Paramèt</string>
+  <string name="app_share">Pataje</string>
+  <string name="app_share_via">Pataje nan</string>
+  <string name="app_skip">Pase</string>
+  <string name="app_spell_check_first">Tcheke òtograf tèks ou a anvan ou voye li.</string>
+  <string name="app_start_game">Kòmanse jwe</string>
+  <string name="app_start_game_new">Kòmanse yon nouvo jwèt</string>
+  <string name="app_text_nb_we_review">N.B.: Nou ap revize tèks la anvan nou mete l piblik.</string>
+  <string name="app_time_to_answer">Tan pou reponn kesyon</string>
+  <string name="app_time_to_read">Tan pou li kesyon</string>
+  <string name="app_timer">Kwonomèt</string>
+  <string name="app_topic">Sijè</string>
+  <string name="app_try_again">Eseye ankò</string>
+  <string name="app_user">Itilizè</string>
+  <string name="app_username">Non itilizatè</string>
+  <string name="app_views">Vizit</string>
+  <string name="app_welcome">Byenvini!</string>
+  <string name="app_your_email">Imèl ou</string>
+  <string name="app_your_password">Modpas ou</string>
+  
+  <string name="q_welcome">Byenveni sou Novasyon Kwiz</string>
+  <string name="q_enjoy_playing">Pran plezi nan jwèt la pandan w ap anrichi konesans ou ;-)</string> <!-- Our MOTTO-->
+  <string name="q_create_account">Kreye yon kont</string>
+  <string name="q_guest">Envite</string>
+  <string name="q_guest_play">Kontinye kòm yon envite</string>
+  <string name="q_register">Enskripsyon</string>
+  <string name="q_go_back">Retounen</string>
+  <string name="q_connecting">Koneksyon...</string>
+  <string name="q_loading">Chajman...</string>
+  <string name="q_loading_data">Chajman done...</string>
+  <string name="q_error_user">Souple antre non itilizatè w</string>
+  <string name="q_error_password">Souple antre non modpas ou</string>
+  <string name="q_try_again">Eseye ankò</string>
+  
+  <string name="q_player_team">Jwè oubyen ekip</string>
+  <string name="q_level1">Trè fasil</string>
+  <string name="q_level2">Fasil</string>
+  <string name="q_level3">Mwayen</string>
+  <string name="q_level4">Difisil</string>
+  <string name="q_level5">Sipriz!</string>
+  <string name="q_game_settings1">2 chans pou reponn, ou pap pèdi pwen pou move repons. Ti konsèy yo ap fè w pèdi yon chans.</string>
+  <string name="q_game_settings2">2 chans pou reponn, w ap pèdi pwen pou move repons. Ti konsèy yo ap redwi pwen an a 50%.</string>
+  <string name="q_game_settings3">1 chans pou reponn, w ap pèdi pwen pou move repons. Ti konsèy yo ap fè w pèdi 50% nan pwen kesyon an.</string>
+  <string name="q_display_explanation">Toujou montre esplikasyon yo</string>
+  <string name="q_second">segond</string>
+  <string name="q_seconds">segond</string>
+  <string name="q_time">tan</string>
+  
+  <string name="articles">Atik</string>
+  <string name="bacc_exams">Ekzamen Bacc</string>
+  <string name="blog">Blòg</string>
+  <string name="by_theme">Pa tèm</string>
+  <string name="cancel">Anile</string>
+  <string name="captcha">Captcha</string>
+  <string name="categories">Kategori</string>
+  <string name="category">Kategori</string>
+  <string name="chemistry">Chimi</string>
+  
+  <string name="comment">Kòmantè</string>
+  <string name="comment_click_here_to">Klike la a pou w kòmante</string>
+  <string name="comment_to">Klike pou w kòmante</string>
+  <string name="comment_view_more">Plis enfòmasyon/Gade kòmantè yo</string>
+  <string name="commented_most">Ki gen pi plis kòmantè</string>
+  <string name="comments">Kòmantè</string>
+  <string name="comments_see_below">Gade kòmantè pi ba a</string>
+  <string name="confirm">Konfime</string>
+  <string name="congrats">Felisitasyon!</string>
+  <string name="continue">Kontinye</string>
+  <string name="delete">Efase</string>
+  
+  <string name="dictionaries">Diksyonè</string>
+  <string name="dictionary">Diksyonè</string>
+  <string name="dictionary_def">Definisyon</string>
+  <string name="dictionary_ht">Diksyonè kreyòl ayisyen</string>
+  <string name="dictionary_meaning">Siyifikasyon</string>
+  <string name="dictionary_translate">Tradwi</string>
+  <string name="dictionary_translate_text">Tradiksyon tèks (bêta)</string>
+  <string name="dictionary_try">Eseye diksyonè nou an</string>
+  
+  <string name="download">Telechaje</string>
+  <string name="edit">Modifye</string>
+  <string name="exam_sample">Modèl egzamen</string>
+  <string name="exams">Ekzamen</string>
+  
+  <string name="form_button_click">Klike sou bouton an</string>
+  <string name="form_create_accnount">Kreye yon kont</string>
+  <string name="form_enter_word">Antre mo a</string>
+  <string name="form_error_wrong_ID">Erè: Nou pa jwenn ID a oswa li pa kòrèk</string>
+  <string name="form_go">Ale!</string>
+  <string name="form_in_site">nan sit la</string>
+  <string name="form_in_tag">Nan etikèt sa a</string>
+  <string name="form_in_theme">Nan tèm sa a</string>
+  <string name="form_in_this">nan</string>
+  <string name="form_member_registered">manm anrejistre</string>
+  <string name="form_members_registered">manm anrejistre</string>
+  <string name="form_no_account">Ou poko anrejistre?</string>
+  <string name="form_password">Modpas</string>
+  <string name="form_password_forget">Ou bliye modpas ou?</string>
+  <string name="form_reset">Reinisyalize</string>
+  <string name="form_submit">Voye</string>
+  
+  <string name="forum">Fowòm</string>
+  <string name="forum_en">Fowòm anglè</string>
+  <string name="forum_es">Fowòm espanyòl</string>
+  <string name="forum_fr">Fowòm fransè</string>
+  <string name="forum_ht">Fowòm kreyòl</string>
+  
+  <string name="genius">jeni</string>
+  <string name="geniuses">jeni</string>
+  
+  <string name="genre_classical">Klasik</string>
+  <string name="genre_compas">Konpa</string>
+  <string name="genre_latin">Latin</string>
+  <string name="genre_pop">Pop</string>
+  <string name="genre_r_and_b">R and B</string>
+  <string name="genre_zouk">Zouk</string>
+  <string name="group">Gwoup</string>
+  <string name="groups">Gwoup</string>
+  <string name="ID">Idantifikasyon</string>
+  <string name="in">nan</string>
+  
+  <string name="joke">Blag</string>
+  <string name="joke_a">yon blag</string>
+  <string name="joke_add">Ajoute yon blag</string>
+  <string name="joke_for_today">Blag jodi a</string>
+  <string name="joke_lates">Dènye blag yo</string>
+  <string name="joke_list">Lis blag ki konmanse ak lèt</string>
+  <string name="joke_more">Plis blag</string>
+  <string name="joke_tag">Etikèt blag</string>
+  <string name="joke_tags">Etikèt blag</string>
+  <string name="joke_the">blag la</string>
+  <string name="joke_upload">Voye yon blag</string>
+  <string name="jokes">Blag</string>
+  
+  <string name="keywords">Mokle</string>
+  
+  <string name="lang">Lang</string>
+  <string name="lang_cr">Kreyòl</string>
+  <string name="lang_en">Anglè</string>
+  <string name="lang_en_ht">Angle-kreyòl ayisyen</string>
+  <string name="lang_es">Espayòl</string>
+  <string name="lang_es_ht">Espayòl-kreyòl ayisyen</string>
+  <string name="lang_fr">Fransè</string>
+  <string name="lang_fr_ht">Fransè-kreyòl ayisyen</string>
+  <string name="lang_ht">Kreyòl ayisyen</string>
+  <string name="lang_ht_en">Kreyòl ayisyen-anglè</string>
+  <string name="lang_ht_es">Kreyòl-espayòl</string>
+  <string name="lang_ht_fr">Kreyòl ayisyen-fransè</string>
+  <string name="lang_learn_en">Aprann anglè</string>
+  <string name="lang_learn_es">Aprann espayòl</string>
+  <string name="lang_learn_fr">Aprann fransè</string>
+  <string name="lang_learn_ht">Aprann kreyòl ayisyen</string>
+  <string name="lang_select">Souple chwazi yon lang</string>
+  <string name="langs">Lang</string>
+  
+  <string name="last_visits">Dènye vizit yo</string>
+  <string name="latest">Dènye</string>
+  <string name="latest_items">Dènye ATIK</string> <!--ITEMS can be proverbs, quotes, jokes -->
+  <string name="login">Konekte</string>
+  <string name="logout">Dekonekte</string>
+  <string name="lyrics">Tèks chan</string>
+  <string name="lyrics_add">Ajoute yon tèks chan</string>
+  <string name="lyrics_artist_random">Atis pa aza</string>
+  <string name="lyrics_find">Chèche yon tèks chan</string>
+  <string name="lyrics_latest">Dènye tèks chan yo</string>
+  <string name="lyrics_more">Plis tèks chan</string>
+  <string name="lyrics_request">Mande yon tèks chan</string>
+  <string name="lyrics_upload">Voye yon tèks chan</string>
+  <string name="lyrics_videos">Videyo tèks chan</string>
+  
+  <string name="menu_about">A pwopo</string>
+  <string name="menu_bacc_questons">Egzanp ekzamen bakaloreya</string>
+  <string name="menu_contact">Kontak</string>
+  <string name="menu_contact_us">Kontakte nou</string>
+  <string name="menu_conversions">Konvèsyon</string>
+  <string name="menu_dictionary">Diksyonè</string>
+  <string name="menu_entertainment">Divètisman</string>
+  <string name="menu_figures_speech">Figi nan langaj</string>
+  <string name="menu_glossary">Glosè</string>
+  <string name="menu_glossary_important">Glosè enpòtan</string>
+  <string name="menu_hep">Èd</string>
+  <string name="menu_home">Akèy</string>
+  <string name="menu_how_to">Kòman pou m fè...?</string>
+  <string name="menu_main_pages">Paj prensipal</string>
+  <string name="menu_navigation">Navigasyon</string>
+  <string name="menu_poem_write_how">Fason pou w ekri yon powèm</string>
+  <string name="menu_quiz">Kwiz</string>
+  <string name="menu_share">Pataje</string>
+  <string name="menu_sitemap">Plan sit la</string>
+  
+  <string name="miscellanous">Divès</string>
+  <string name="most_viewed">Ki gen plis vizit</string>
+  <string name="music">Mizik</string>
+  <string name="name">Non</string>
+  <string name="new_messaged">Nouvo mesaj</string>
+  <string name="next">Apre</string>
+  <string name="note">Nòt</string>
+  
+  <string name="novasyon_for_you">Kisa sit Novasyon an gen pou ou?</string>
+  <string name="novasyon_motto">Enfòmasyon ak edikasyon avèk plezi!</string>
+  <string name="novasyon_welcome">Byenveni sou Novasyon!</string>
+  
+  <string name="other">Lòt</string>
+  
+  <string name="poem">Powèm</string>
+  <string name="poem_a">yon powèm</string>
+  <string name="poem_add">Ajoute yon powèm</string>
+  <string name="poem_glossary">Glosè powetik</string>
+  <string name="poem_latest">Dènye powèm yo</string>
+  <string name="poem_list">Lis powèm kreyòl ki konmanse ak lèt</string> <!--LANG can be English, Fench, Haitian Creole or Spanih -->
+  <string name="poem_mote">Plis powèm</string>
+  <string name="poem_poetic">Pwetik</string>
+  <string name="poem_read_upload">Li epi voye powèm</string>
+  <string name="poem_the">powèm nan</string>
+  <string name="poem_types">Tip powèm</string>
+  <string name="poem_upload">Voye yon powèm</string>
+  <string name="poems">Powèm</string>
+  <string name="poems_in_theme">Powèm nan menm tèm nan</string>
+  
+  <string name="previous">Anvan</string>
+  
+  <string name="proverb">Pwovèb</string>
+  <string name="proverb_add">Ajoute yon pwovèb</string>
+  <string name="proverb_en">Pwovèb anglè</string>
+  <string name="proverb_es">Pwovèb fransè</string>
+  <string name="proverb_es">Pwovèb espayòl</string>
+  <string name="proverb_for_today">Pwovèb jodi a</string>
+  <string name="proverb_fr">Pwovèb fransè</string>
+  <string name="proverb_ht">Pwovèb kreyòl ayisyen</string>
+  <string name="proverb_list">Lis pwovèb yo</string>
+  <string name="proverb_list_lang">Lis pwovèb kreyòl</string>
+  <string name="proverb_more">Plis pwovèb</string>
+  <string name="proverb_next">Pwovèb apre</string>
+  <string name="proverb_previous">Pwovèb anvan</string>
+  <string name="proverb_random">Pwovèb pa aza</string>
+  <string name="proverb_share">Pataje yon pwovèb</string>
+  <string name="proverb_suggest">Sigjere yon pwovèb ki pa sou sit la</string>
+  <string name="proverb_view_by_theme">Gade pwovèb yo pa tèm</string>
+  <string name="proverbs">Pwovèb</string>
+  <string name="proverbs_in_theme">Pwovèb nan menm tèm nan</string>
+  <string name="proverbs_random">Pwovèb pa aza</string>
+  <string name="proverbs_share">Pataje pwovèb</string>
+  <string name="proverbs_top">Pwovèb popilè yo</string>
+  
+  <string name="pseudo">Pseudo</string>
+  <string name="quiz_take">Pran yon kwiz</string>
+  
+  <string name="quote_add">Ajoute yon sitasyon</string>
+  <string name="quote_list">Lis sitasyon kreyòl</string>
+  <string name="quote_list_letter">Lis sitasyon kreyòl ki konmanse ak lèt</string>
+  <string name="quote_random">Sitasyon pa aza</string>
+  <string name="quote_share">Pataje yon sitasyon</string>
+  <string name="quote_suggest">Sigjere yon sitasyon</string>
+  <string name="quote_tags">Etikèt sitasyon yo</string>
+  <string name="quotes_friendship">Sitasyon zanmitay</string>
+  <string name="quotes_love">Sitasyon lanmou</string>
+  <string name="quotes_more">Plis sitasyon</string>
+  <string name="quotes_random">Sitasyon pa aza</string>
+  <string name="quotes_share">Pataje sitasyon</string>
+  <string name="quotes_top">Sitasyon popilè</string>
+  
+  <string name="random">Pa aza</string>
+  <string name="reply">Reponn</string>
+  <string name="request">Fè demann</string>
+  
+  <string name="ridddle_share">Pataje devinèt</string>
+  <string name="riddle">Devinèt</string>
+  <string name="riddle_add">Ajoute yon devinèt</string>
+  <string name="riddle_random">Devinèt pa aza</string>
+  <string name="riddle_suggest">Sigjere yon devinèt</string>
+  <string name="riddle_tag">Etikèt devinèt</string>
+  <string name="riddle_tags">mo kle devinèt</string>
+  <string name="riddle_top">Devinèt popilè</string>
+  <string name="riddles">Devinèt</string>
+  <string name="round">Tou</string>
+  <string name="rounds">Tou</string>
+  <string name="sample">Modèl</string>
+  <string name="score">Rezilta</string>
+  <string name="search">Rechèch</string>
+  <string name="search_result_tag">Rezilta rechèch - etikèt</string>
+  <string name="search_results">Rechèch rezilta - mokle:</string>
+  <string name="select">Chwazi...</string>
+  <string name="send_to_friend">Voye pou yon zanmi</string>
+  
+  <string name="share_love_items_with_friedns">Pataje kèk sitasyon lanmou, pwovèb lakay, bèl blag ansanm ak zanmi ou oswa sou rezo sosyal.</string>
+  <string name="share_with_friends">Pataje ak zanmi ou!</string>
+  <string name="share_with_world">Pataje sou rezo sosyal</string>
+  
+  <string name="table">Tab</string>
+  <string name="tab">Onglè</string>
+  <string name="tag">Etikèt</string>
+  <string name="tags">Etikèt</string>
+  
+  <string name="text_add_item">Souple antre yon tèks pou ajoute</string> <!--ITEMS can be proverbs, quotes, jokes -->
+  <string name="text_added_success">Ajoute avèk siksè</string>
+  <string name="text_chalenge_yourself">Leve defi sa</string>
+  <string name="text_click_letter">Clik sou yon lèt pou ka wè tout tèks ki kòmanse avèk yon lèt espesifik</string>
+  <string name="text_contest">Konkou</string>
+  <string name="text_contest_rules">Règleman konkou a</string>
+  <string name="text_education_related">Ki baze sou edikasyon</string>
+  <string name="text_feedback">Di nou sa ou panse</string>
+  <string name="text_fun_jokes_poems">Blag amizan, bèl powèm, sitasyon sajès, pwovèb lakay, tèks chan, diksyonè fowòm ak plis ankò</string>
+  <string name="text_interesting_links">Kèk lyen enteresan sou sit la</string>
+  <string name="text_no_caps">PA VOYE POWÈM KI EKRI SÈLMAN AK LÈT MAJISKIL.</string>
+  <string name="text_novasyon_cool">Bèl bagay sou Novasyon</string>
+  <string name="text_novasyon_in_short">Nova an mini</string>
+  <string name="text_proverb_comments">Ou kapab poste varyasyon, defnisyon, kritik, egzanp oubyen itilizasyon pwovèb, tradiksyon angle, fransè, espayòl ak kreyòl nan kòmantè ou.</string>
+  <string name="text_share_with_community">Pataje sou rezo sosyal</string>
+  <string name="text_site_activity">Aktivite sit la</string>
+  <string name="text_sitemap_novasyon">Plan sit Novasyon an</string>
+  <string name="text_starting_with_letter">Tèks ki konmanse ak lèt</string>
+  <string name="text_support">Sipòte Novasyon Fè yon don</string>
+  <string name="text_theme_to_view">Klike sou yon tèm pou w wè tèks nan tèm sa a.</string><!--ITEMS can be proverbs, quotes, jokes -->
+  <string name="text_word_for_today">Mo kreyòl pou jodi a</string>
+  
+  <string name="thanks">Mesi</string>
+  <string name="thankyou">Mesi</string>
+  
+  <string name="theme">Tèm</string>
+  <string name="theme_Animal">Animal</string>
+  <string name="theme_Appearance">Aparans (fo)</string>
+  <string name="theme_Chance">Chans</string>
+  <string name="theme_Change">Chanjman</string>
+  <string name="theme_Constraints">Kontrent</string>
+  <string name="theme_Disappointment">Desepsyon</string>
+  <string name="theme_Disclaimer">Avètisman</string>
+  <string name="theme_Embarrassment">Anbarasman</string>
+  <string name="theme_Family">Fanmi</string>
+  <string name="theme_Famine">Grangou</string>
+  <string name="theme_God">Bondye</string>
+  <string name="theme_Hazard">Danje</string>
+  <string name="theme_Help">Èd</string>
+  <string name="theme_Independence">Endepandans</string>
+  <string name="theme_Justice">Jistis</string>
+  <string name="theme_Love">Lanmou</string>
+  <string name="theme_Misery">Lamizè</string>
+  <string name="theme_Misfortune">Malè</string>
+  <string name="theme_Money">Lajan</string>
+  <string name="theme_Mystery">Mistè</string>
+  <string name="theme_Necessicity">Nesesite</string>
+  <string name="theme_Opportunism">Opòtinism</string>
+  <string name="theme_Providence">Pwovidans</string>
+  <string name="theme_Quality">Kalite / Defo</string>
+  <string name="theme_Realism">Reyalite</string>
+  <string name="theme_Resignation">Reziyasyon</string>
+  <string name="theme_Sciences">Syans</string>
+  <string name="theme_Security">Sekirite</string>
+  <string name="theme_Social">Divizyon sosyal</string>
+  <string name="theme_Truth">Verite</string>
+  <string name="theme_Vanities">Vanite</string>
+  <string name="theme_Waste">Gaspiyaj</string>
+  <string name="theme_Wealth">Richès</string>
+  <string name="themes">Tèm</string>
+  
+  <string name="this">sa a</string>
+  <string name="time">tan</string>
+  <string name="times">fwa</string>
+  <string name="tools">Zouti</string>
+  <string name="tools_find_rhymes">Jwenn mo ki rime</string>
+  <string name="tools_number_to_text">Chanje chif an lèt</string>
+  <string name="update">Mizajou</string>
+  <string name="update_success">Li vin ajou avèk siksè</string>
+  
+  <string name="user_connected_as">Ou konekte kòm</string>
+  <string name="user_here">Ou la a:</string>
+  <string name="user_not_connected">Ou pa konekte</string>
+  <string name="user_profile_modify">Motifye pwofil mwen</string>
+  <string name="user_status_hide">Kache stati m</string>
+  <string name="user_status_ofline">Pa konekte</string>
+  <string name="user_status_online">Konekte</string>
+  <string name="verb_conjugate">Konjige</string>
+  
+  <string name="verb_en">Vèb anglè</string>
+  <string name="verb_en_irr">Vèb anglè iregilye</string>
+  <string name="verb_es">Vèb espayòl</string>
+  <string name="verb_es_irr">Vèb espayòl iregilye</string>
+  <string name="verb_fr">Vèb fransè</string>
+  <string name="verb_fr_irr">Vèb fransè iregilye</string>
+  <string name="verb_gr1">1ye gwoup</string>
+  <string name="verb_gr1fr">Vèb fransè 1ye gwoup</string>
+  <string name="verb_gr2">2yèm gwoup</string>
+  <string name="verb_gr2fr">Vèb fransè 2yèm gwoup</string>
+  <string name="verb_gr3">3yèm gwoup</string>
+  <string name="verb_gr3fr">Vèb fransè 3yèm gwoup</string>
+  <string name="verb_ht">Vèb kreyòl ayisyen</string>
+  <string name="verb_ht_irr">Vèb kreyòl ayisyen iregilye</string>
+  <string name="verb_master">Metrize konjigezon vèb</string>
+  <string name="verbs">Vèb</string>
+  
+  <string name="view_by">Gade pa</string>
+  <string name="view_by_category">Gade pa kategori</string>
+  <string name="view_by_letter">Gade pa lèt</string>
+  <string name="view_more">Gade plis</string>
+  <string name="view_tags">Gade etikèt yo</string>
+  <string name="views">Vizit</string>
+  
+  <string name="security">Sekirite</string>
+<help_text>
+ÈD POU NOVASYON KWIZ
+1 - KISA NOVASYON KWIZ YE?
+2 - FASON NOU KALKILE PWEN YO?
+3 - JWE NOVASYON KWIZ
+ i - ANTRE NON EPI CHWAZI OPSYON
+ ii - NON JWÈ, NIVO
+ iii - PARAMÈT APLIKASYON AN
+ iv - TAN POU LI E REPONN KESYON
+ v - KANTITE TOU NAN CHAK PATI
+ vi - KANTITE KESYON PA KATEGORI
+ vii - KANTITE KATEGORI
+ viii - LÒT OPSYON
+4 - KONTINYE, ÈD, SÒTI AK NOUVO BOUTON
+5 - KÒMANTÈ, PATAJE, VOTE POU APLIKASYON AN</help_text>
+
+<help_text1>Èd pou Novasyon Kwiz</help_text1>
+
+<help_text2>1 - Kisa Novasyon Kwiz ye? 
+Novasyon Kwiz se yon aplikasyon ki sanble ak jwèt popilè ki rele “jeopardy” ann anglè. Nou vle pou paramèt aplikasyon an byen fasil pou w itilize, pou w ka byen jwi aplikasyon an. Se sa k fè slogan nou se: "Pran plezi w pandan w ap aprann ;-)". Nou ap mete plizyè kwiz. Ap gen kwiz sou plizyè sije tankou kwiz histwa, syans, lang, elatriye. Detanzantan n ap ajoute lòt kwiz.</help_text2>
+
+<help_text3>2 - FASON NOU KALKILE PWEN YO? 
+Pwen yo kalkle selon paramèt ou chwazi a. Chwzazi paramèt ou selon difikilte ou vle aplikasyon an genyen.</help_text3>
+
+<help_text4>3 - JWE NOVASYON KWIZ
+ i - ANTRE NON EPI CHWAZI OPSYON 
+ Antre non jwè a (oswa jwè yo) epi chwazi nivo ou vle a, oswa kite nivo pa defo a. Genyen 5 nivo: 
+ a) Trè fasil - jan non an di l la, sa se nivo ki pi fasil la. 
+ b) Fasil 
+ ch) Medyòm (nivo pa defo a) 
+ d) Difisil 
+ e) Sipriz! W ap jwenn tout kalite kesyon la a. Li gen kesyon tout lòt nivo yo ladan l. 
+ 
+  Paj sa a gen chan sa yo ladan l tou: 
+ii - NON JWÈ, NIVO 
+Antre non chak jwè epi chwazi yon nivo. Nivo pa defo a se Medyòm. 
+
+iii - PARAMÈT APLIKASYON AN
+Mòd sa yo pèmèt ou jwenn metòd ki pi enteresan e ki pi eksitan pou w jwe kwiz yo. 
+
+I) 2 chans pou reponn, ou pap pèdi pwen pou move repons. Ti konsèy yo ap fè w pèdi yon chans. 
+Ou gen 2 opòtinite pou w reponn kesyon an epi w pap pèdi pwen pou move repons. Sepandan, si w gade ti konsèy yo, w ap rete yon sèl chans pou kesyon an. Nan mòd sa a, itilizatè a ka eseye reponn yon kesyon 2 fwa. Si premye esè a pa bon, jwè a ap kapab fè yon dezyèm esè. Si dezyèm esè a pa bon tou, itilizatè a pap pèdi pwen. 
+NB: Jwè a ap kapab wè ti konsèy la sèlman anvan premye  esè a. Si itilizatè a itilize ti konsèy la (si ti konsèy la disponib pou repons sa a) jwè a pap ka fè yon dezyèm esè. 
+
+II) 2 chans pou reponn, w ap pèdi pwen pou move repons. Ti konsèy yo ap redwi pwen an a 50%. 
+Opsyon sa a bay 2 opòtinite pou reponn kesyon an. Sepandan, si w pa byen reponn y ap retire nan pwen w epi ti konsèy la ap retire 50% nan valè pwen pou kesyon an. Nan mòd sa a, itilizatè a ka eseye reponn yon kesyon 2 fwa. Si premye esè a pa bon, jwè a ap kapab fè yon dezyèm esè. Si dezyèm esè a pa bon tou, itilizatè a ap pèdi pwen. 
+NB: Jwè a ap kapab wè ti konsèy la sèlman anvan premye  esè a. Si itilizatè a itilize ti konsèy la (si ti konsèy la disponib pou repons sa a) jwè a pap ka fè yon dezyèm esè. Si itilizatè a chwazi bon repons lan apre l fin gade ti konsèy la, li ap kapab sèlman jwenn mwatye nan pwen pou kesyon an. 
+
+III) 1 chans pou reponn, w ap pèdi pwen pou move repons. Ti konsèy yo ap fè w pèdi 50% nan pwen kesyon an. 
+Opsyon sa a bay 1 sèl opòtinite pou reponn kesyon an. W ap pèdi pwen pou yon move repons. SI w gade ti konsèy la y ap retire mwatye nan valè pwen pou kesyon an nan pwen total ou a ke repons ou chwazi a bon, ke l pa bon. Nan mòd sa a, itilizatè a ap otomatikman pèdi 50% nan pwen pou kesyon an. 
+
+iv - TAN POU LI E REPONN KESYON 
+Se kantite segond ou genyen pou w li keksyon epi chwazi repons ou an. Kou w wè kesyon an, eseye li epi reponn avan tan kwonomèt la fini.
+
+v - KANTITE TOU NAN CHAK PATI 
+Sa se kantite tou chak pati kwiz genyen. 
+
+vi - KANTITE KESYON PA KATEGORI 
+Ou kapab chwazi kantite kesyon ke kategori oswa sijè yo ap genyen: 3, 4 oswa 5 kesyon pou chak kategori. Toujou genyen menm kantite kesyon nan chak kategori oswa sijè. 
+
+vii - KANTITE KATEGORI
+Mete ki kantite kategori oswa sijè ou vle jwe. 
+
+vii - LÒT OPSYON
+Opsyon “Toujou montre esplikasyon yo” ap afiche tout esplikasyon yo otomatikman apre chak kesyon, ke repons lan bon, ke repons ou bay la pa t bon. Kesyon yo ap chwazi o aza, konsa ou ap ka jwe jwèt la anpil fwa, san w pa toutjou jwenn menm kesyon yo. Ou kapab chwazi pou w aktive oswa dezaktive son an.</help_text4>
+
+<help_text5>4 - KONTINYE, ÈD, SÒTI AK NOUVO BOUTON 
+Itilize bouton sa yo pou w navige nan aplikasyon an. 
+
+5 - KÒMANTÈ, PATAJE, VOTE POU APLIKASYON AN 
+Nou ap kontan si w di nou sa w panse. Nenpòt reyaksyon ou genyen, kòmantè, pwoblèm nan aplikasyon an, koreksyon, modèl kesyon ou genyen, oubyen nouvo kwiz ou ta vle ajoute, tanpri voye li nan apps@novasyon.net.
+
+Klike sou lyen sa a pou w pataje aplikasyon an ak zanmi w. Oubyen ou ka pataje li tou nan Play Store Google la. 
+
+Souple, ban nou pwen pozitif, fè kòmantè konstriktif nan Play Store a. Si ou gen yon pwoblèm nan aplikasyon an souple voye yon imel detaye pou nou ak tout pwoblèm nan, e nou ap eseye regle sa tousuit. Bay move nòt nan Play Store a pap ede korije pwoblèm nan. 
+
+Mèsi anpil paske te itilize Novasyon Kwiz.</help_text5>
+</resources>

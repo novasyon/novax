@@ -1,0 +1,34 @@
+<List horizontal dataArray={this.state.poems}
+                renderRow={(item) =>
+                  <Card style={{ padding: 10,width:Dimensions.get('window').width }}>
+                    <CardItem header>
+                      <Left>
+                        <Thumbnail source={{ uri: 'http://novasyon.net/images/poem/' + item.image }} />
+                      </Left>
+                      <Body>
+                        <Text>{item.title}</Text>
+                        <Text note>Authored By {item.author}</Text>
+                      </Body>
+                    </CardItem>
+                    <CardItem>
+                      <Body>
+                        <Text note numberOfLines={3} ellipsizeMode={"tail"}>
+                          {item.poem_txt}
+                        </Text>
+                      </Body>
+                    </CardItem>
+                    <CardItem>
+                      <Left>
+                      </Left>
+                      <Body>
+                      </Body>
+                      <Right>
+                        <Button transparent>
+                          <Text onPress={
+                            () => this.props.navigation.navigate('PoemDetailHome', { id: item.id, title: item.title, isHome: true })}>More</Text>
+                        </Button>
+                      </Right>
+                    </CardItem>
+                  </Card>
+                }>
+              </List>

@@ -1,0 +1,44 @@
+<Card
+            style={{ width: SCREEN_WIDTH,padding:0, backgroundColor: '#fff' }}
+        >
+
+            <CardItem>
+                <Left>
+                    <Body>
+                        <Text style={{ fontWeight: 'bold' }}>Poems</Text>
+                        <Text style={{ fontSize: 15, color: '#64b5f6' }}>{item.title}</Text>
+                        <Text note style={{ fontSize: 12 }}>Authored By {item.author}</Text>
+                    </Body>
+                </Left>
+            </CardItem>
+            
+            {item.image!=='en'?<CardItem cardBody>
+                <Image source={{ uri: 'http://novasyon.net/images/poem/' + item.image }}
+                    style={{ height: 100, width: null, flex: 1 }} />
+            </CardItem>:<View/>}
+            
+
+
+            <CardItem>
+                <Text style={{ marginBottom: 10 }} numberOfLines={3} ellipsizeMode={"tail"}>
+                    {item.poem_txt}
+                </Text>
+            </CardItem>
+            <CardItem>
+                <Left>
+                    <Button transparent onPress={this.prev}>
+                        <Icon name="arrow-back" />
+                    </Button>
+                </Left>
+                <Body>
+                    <Button transparent onPress={() => this.props.navigation.navigate("PoemDetail", { id: poem.id, title: poem.title, isHome: true })}>
+                        <Text>View</Text>
+                    </Button>
+                </Body>
+                <Right>
+                    <Button transparent onPress={this.next}>
+                        <Icon name="arrow-forward" />
+                    </Button>
+                </Right>
+            </CardItem>
+        </Card>

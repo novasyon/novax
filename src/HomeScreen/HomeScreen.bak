@@ -1,0 +1,589 @@
+import React from "react";
+import { AsyncStorage, StyleSheet, StatusBar, View, Image, Dimensions } from "react-native";
+import {
+  Button,
+  Text,
+  Container,
+  Card,
+  CardItem,
+  Body,
+  Content,
+  Header,
+  Title,
+  List,
+  Left,
+  Icon,
+  Right,
+  H2, H3, Spinner, StyleProvider, Thumbnail
+} from "native-base";
+import getTheme from '../native-base-theme/components';
+import material from '../native-base-theme/variables/material';
+import platform from '../native-base-theme/variables/platform';
+import LoginScreen from "../LoginScreen/LoginScreen.js";
+import { configz } from '../config/config.js';
+import PoemDeck from '../components/PoemDeck.js'
+import PoemCards from '../components/PoemCards.js'
+
+
+
+
+export default class HomeScreen extends React.Component {
+
+  //statusBarPadding = configz.setting.statusBarPadding;
+
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      isLoading: true,
+      isLoadingJokes: true,
+      isLoadingProverbs: true,
+      isLoadingQuotes: true,
+      poems: [],
+      jokes: [],
+      proverbs: [],
+      quotes: [],
+      proverbIndex: 0,
+      poemIndex: 0,
+      jokeIndex: 0,
+      quoteIndex: 0
+    }
+  }
+
+  componentDidMount() {
+    this.getRandomProverbs();
+    this.getRandomQuotes();
+    this._getRandomPoem();
+    this.getRandomJokes();
+  }
+
+  getRandomQuotes() {
+
+    console.log("Random Quotes");
+
+    this.setState({ isLoadingQuotes: true, quotes: [] });
+
+    let randomUrl = 'http://novasyon.net/apps/novasyon/APIquotes.php?random';
+
+    return fetch(randomUrl)
+      .then((response) => response.json())
+      .then((responseJson) => {
+        //console.log("Jokes Random:", responseJson);
+
+        let jsonArr = [];
+
+        if (responseJson instanceof Array) {
+          jsonArr = responseJson;
+        } else {
+          jsonArr.push(responseJson);
+        }
+        this.setState({
+          title: 'Random Quotes',
+          isLoadingQuotes: false,
+          quotes: jsonArr,
+        }, function () {
+          // do something with new state
+        });
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+
+  }
+
+  getRandomProverbs() {
+
+    console.log("Random Proverbs");
+
+    this.setState({ isLoadingProverbs: true, proverbs: [] });
+
+    let randomUrl = 'http://novasyon.net/apps/novasyon/APIproverbs.php?random';
+
+    return fetch(randomUrl)
+      .then((response) => response.json())
+      .then((responseJson) => {
+        //console.log("Jokes Random:", responseJson);
+
+        let jsonArr = [];
+
+        if (responseJson instanceof Array) {
+          jsonArr = responseJson;
+        } else {
+          jsonArr.push(responseJson);
+        }
+        this.setState({
+          title: 'Random Jokes',
+          isLoadingProverbs: false,
+          proverbs: jsonArr,
+        }, function () {
+          // do something with new state
+        });
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+
+  }
+
+
+  getRandomJokes() {
+
+    console.log("Random Jokes");
+
+    this.setState({ isLoadingJokes: true, jokes: [] });
+
+    let randomJokesUrl = 'http://novasyon.net/apps/novasyon/APIjokes.php?random';
+
+    return fetch(randomJokesUrl)
+      .then((response) => response.json())
+      .then((responseJson) => {
+        console.log("Jokes Random:", responseJson);
+
+        let jsonArr = [];
+
+        if (responseJson instanceof Array) {
+          jsonArr = responseJson;
+        } else {
+          jsonArr.push(responseJson);
+        }
+
+
+        this.setState({
+          title: 'Random Jokes',
+          isLoadingJokes: false,
+          jokes: jsonArr,
+        }, function () {
+          // do something with new state
+        });
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+
+
+  }
+
+
+  _getRandomPoem() {
+
+    console.log("Get Random Poem");
+
+    this.setState({ isLoading: true, isListPoem: true, poems: [] });
+
+    let randomPoemUrl = 'http://novasyon.net/apps/novasyon/APIpoems.php?random';
+
+    return fetch(randomPoemUrl)
+      .then((response) => response.json())
+      .then((responseJson) => {
+        console.log("Poems:", responseJson);
+
+        let jsonArr = [];
+
+        if (responseJson instanceof Array) {
+          jsonArr = responseJson;
+        } else {
+          jsonArr.push(responseJson);
+        }
+
+        this.poems = responseJson;
+        this.setState({
+          title: 'Random Poems',
+          isLoading: false,
+          poems: jsonArr,
+        }, function () {
+          // do something with new state
+        });
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+
+  }
+
+  nextQuote() {
+    let nextIndex = this.state.quoteIndex + 1;
+    this.setState({ quoteIndex: nextIndex });
+  }
+
+  previousQuote() {
+    let previousIndex = this.state.quoteIndex - 1;
+    this.setState({ quoteIndex: previousIndex });
+  }
+
+  nextJoke() {
+    let nextIndex = this.state.jokeIndex + 1;
+    this.setState({ jokeIndex: nextIndex });
+  }
+
+  previousJoke() {
+    let previousIndex = this.state.jokeIndex - 1;
+    this.setState({ jokeIndex: previousIndex });
+  }
+
+  nextProverb() {
+    let nextIndex = this.state.proverbIndex + 1;
+    this.setState({ proverbIndex: nextIndex });
+  }
+
+  previousProverb() {
+    let previousIndex = this.state.proverbIndex - 1;
+    this.setState({ proverbIndex: previousIndex });
+  }
+
+  nextPoem() {
+    let nextIndex = this.state.poemIndex + 1;
+    this.setState({ poemIndex: nextIndex });
+  }
+
+  previousPoem() {
+
+    let previousIndex = this.state.poemIndex - 1;
+    this.setState({ poemIndex: previousIndex });
+
+  }
+
+  renderQuotes() {
+
+    let quote = this.state.quotes[this.state.quoteIndex];
+    let previousButton = <View />
+    let nextButton = <View />
+
+    if (this.state.quoteIndex < this.state.quotes.length - 1) {
+      nextButton = <Button transparent onPress={() => this.nextQuote()}>
+        <Icon name="arrow-forward" />
+      </Button>
+    }
+
+    if (this.state.quoteIndex > 0) {
+      previousButton = <Button transparent onPress={() => this.previousQuote()}>
+        <Icon name="arrow-back" />
+      </Button>
+    }
+
+    if (this.state.isLoadingQuotes) {
+      return (
+
+        <View style={{ alignItems: 'center', justifyContent: 'center', flex: 1 }}>
+          <Spinner color='blue' />
+        </View>
+      );
+    }
+
+
+    if (this.state.quotes.length > 0) {
+
+      return (
+        <Card style={{ flex: 0 }}>
+
+          <CardItem>
+            <Left>
+              <Body>
+                <Text style={{ fontWeight: 'bold' }}>Quotes</Text>
+                <Text style={{ fontSize: 15, color: '#000' }}>{quote.text}</Text>
+              </Body>
+            </Left>
+          </CardItem>
+          <CardItem>
+            <Left>
+              {previousButton}
+            </Left>
+            <Body>
+              <Button transparent onPress={() =>
+                this.props.navigation.navigate("QuotesDetail", { id: quote.id, isHome: true })}>
+                <Text>View</Text>
+              </Button>
+            </Body>
+            <Right>
+              {nextButton}
+            </Right>
+          </CardItem>
+        </Card>
+      );
+    }
+  }
+
+  renderProverbs() {
+
+    let proverb = this.state.proverbs[this.state.proverbIndex];
+    let previousButton = <View />
+    let nextButton = <View />
+
+    if (this.state.proverbIndex < this.state.proverbs.length - 1) {
+      nextButton = <Button transparent onPress={() => this.nextProverb()}>
+        <Icon name="arrow-forward" />
+      </Button>
+    }
+
+    if (this.state.proverbIndex > 0) {
+      previousButton = <Button transparent onPress={() => this.previousProverb()}>
+        <Icon name="arrow-back" />
+      </Button>
+    }
+
+    if (this.state.isLoadingProverbs) {
+      return (
+
+        <View style={{ alignItems: 'center', justifyContent: 'center', flex: 1 }}>
+          <Spinner color='blue' />
+        </View>
+      );
+    }
+
+
+    if (this.state.proverbs.length > 0) {
+
+      return (
+        <Card style={{ flex: 0 }}>
+
+          <CardItem>
+            <Left>
+              <Body>
+                <Text style={{ fontWeight: 'bold' }}>Proverbs</Text>
+                <Text style={{ fontSize: 15, color: '#000' }}>{proverb.english}</Text>
+              </Body>
+            </Left>
+          </CardItem>
+          <CardItem>
+            <Left>
+              {previousButton}
+            </Left>
+            <Body>
+              <Button transparent onPress={() =>
+                this.props.navigation.navigate("ProverbsDetail", { id: proverb.id, isHome: true })}>
+                <Text>View</Text>
+              </Button>
+            </Body>
+            <Right>
+              {nextButton}
+            </Right>
+          </CardItem>
+        </Card>
+      );
+    }
+
+  }
+
+  renderJokes() {
+
+    let joke = this.state.jokes[this.state.jokeIndex];
+    let previousButton = <View />
+    let nextButton = <View />
+
+    if (this.state.jokeIndex < this.state.jokes.length - 1) {
+      nextButton = <Button transparent onPress={() => this.nextJoke()}>
+        <Icon name="arrow-forward" />
+      </Button>
+    }
+
+    if (this.state.jokeIndex > 0) {
+      previousButton = <Button transparent onPress={() => this.previousJoke()}>
+        <Icon name="arrow-back" />
+      </Button>
+    }
+
+    if (this.state.isLoadingJokes) {
+      return (
+
+        <View style={{ alignItems: 'center', justifyContent: 'center', flex: 1 }}>
+          <Spinner color='blue' />
+        </View>
+      );
+    }
+
+
+    if (this.state.jokes.length > 0) {
+
+      let thumbnail = <View />
+      console.log("Joke Image ", joke.image);
+      if (joke.image !== 'en') {
+        thumbnail = <Thumbnail large source={{ uri: 'http://novasyon.net/images/poem/' + joke.image }} />
+      }
+
+      return (
+        <Card style={{ flex: 0 }}>
+          <CardItem>
+            <Left>
+              {thumbnail}
+              <Body>
+                <Text style={{ fontWeight: 'bold' }}>Jokes</Text>
+                <Text style={{ fontSize: 15, color: '#64b5f6' }}>{joke.title}</Text>
+                <Text note style={{ fontSize: 12 }}>Authored By {joke.author}</Text>
+              </Body>
+            </Left>
+          </CardItem>
+          <CardItem>
+            <Body>
+              <Text note numberOfLines={3} ellipsizeMode={"tail"}>
+                {joke.text}
+              </Text>
+            </Body>
+          </CardItem>
+          <CardItem>
+            <Left>
+              {previousButton}
+            </Left>
+            <Body>
+              <Button transparent onPress={() => this.props.navigation.navigate("JokeDetail", { id: joke.id, title: joke.title, isHome: true })}>
+                <Text>View</Text>
+              </Button>
+            </Body>
+            <Right>
+              {nextButton}
+            </Right>
+          </CardItem>
+        </Card>
+      );
+    }
+  }
+
+  renderPoems() {
+
+    let imageUrl = 'http://novasyon.net/images/poem/';
+
+    let poem = this.state.poems[this.state.poemIndex];
+
+
+    let previousButton = <View />
+    let nextButton = <View />
+
+
+    if (this.state.poemIndex < this.state.poems.length - 1) {
+      nextButton = <Button transparent onPress={() => this.nextPoem()}>
+        <Icon name="arrow-forward" />
+      </Button>
+    }
+
+    if (this.state.poemIndex > 0) {
+      previousButton = <Button transparent onPress={() => this.previousPoem()}>
+        <Icon name="arrow-back" />
+      </Button>
+    }
+
+    let thumbnail = <View />
+
+    console.log("Poem Image ", poem.image);
+
+    if (poem.image !== 'en') {
+      thumbnail = <Thumbnail square source={{ uri: 'http://novasyon.net/images/poem/' + poem.image }} />
+    }
+
+
+    return (
+      <Card style={{ flex: 0 }}>
+        <CardItem>
+          <Left>
+            {thumbnail}
+            <Body>
+              <Text style={{ fontWeight: 'bold' }}>Poems</Text>
+              <Text style={{ fontSize: 15, color: '#64b5f6' }}>{poem.title}</Text>
+              <Text note style={{ fontSize: 12 }}>Authored By {poem.author}</Text>
+            </Body>
+          </Left>
+        </CardItem>
+        <CardItem>
+          <Body>
+            <Text note numberOfLines={3} ellipsizeMode={"tail"}>
+              {poem.poem_txt}
+            </Text>
+          </Body>
+        </CardItem>
+        <CardItem>
+          <Left>
+            {previousButton}
+          </Left>
+          <Body>
+            <Button transparent onPress={() => this.props.navigation.navigate("PoemDetail", { id: poem.id, title: poem.title, isHome: true })}>
+              <Text>View</Text>
+            </Button>
+          </Body>
+          <Right>
+            {nextButton}
+          </Right>
+        </CardItem>
+      </Card>
+    );
+
+  }
+
+  renderContents() {
+
+    { this.renderProverbs() }
+    { this.renderQuotes() }
+    { this.renderPoems() }
+    { this.renderJokes() }
+
+  }
+
+
+  renderPoemsScroll() {
+    <List
+      horizontal={true}
+      dataArray={this.state.poems}
+      renderRow={(item) => {
+
+      }}
+    />
+
+  }
+
+  renderPoemDeck() {
+    return (
+      <PoemDeck poems={this.state.poems} />
+    );
+  }
+
+
+  renderPoemCards() {
+    return <PoemCards data={this.state.poems} />
+  }
+
+  render() {
+
+    if (this.state.isLoading) {
+      return (
+
+        <View style={{ alignItems: 'center', justifyContent: 'center', flex: 1 }}>
+          <Spinner color='blue' />
+        </View>
+      );
+    }
+
+    return (
+      <StyleProvider style={getTheme(material)}>
+        <Container>
+          <Header noShadow androidStatusBarColor='#000' style={{ marginTop: 0, paddingTop: 60, paddingBottom: 40, elevation: 0 }}>
+            <Left>
+              <Button
+                transparent
+                onPress={() => this.props.navigation.navigate("DrawerOpen")}
+              >
+                <Icon name="menu" />
+              </Button>
+            </Left>
+            <Body>
+              <Title><Image style={{ width: 80, height: 80 }} source={{ uri: 'http://novasyon.net/images/nova.png' }} /> Home</Title>
+            </Body>
+            <Right />
+          </Header>
+          <Content>
+            {this.renderPoemCards()}
+          </Content>
+        </Container>
+      </StyleProvider>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+
+  cardheader: {
+    backgroundColor: '#ebebeb',
+    borderBottomWidth: 1
+  },
+
+  cardFooter: {
+    color: '#fff',
+    fontSize: 18
+  }
+
+});
